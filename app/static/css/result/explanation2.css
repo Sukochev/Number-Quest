@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Atomic+Age|Montserrat');
+
+#explanation2 {
+    font-family: 'Montserrat', sans-serif;
+    color: cornsilk;
+    width: auto;
+    padding: 0.5em; 
+    font-size: 1.4em;
+    line-height: 1.5;
+    text-align: center;
+}
+
+#explanation2_1 {
+    font-family: 'Montserrat', sans-serif;
+    color: cornsilk;
+    width: auto;
+    padding: 0.3em; 
+    font-size: 1.4em;
+    line-height: 1.5;
+    text-align: center;
+}
+
+#explanation3_1 {
+    font-family: 'Montserrat', sans-serif;
+    color: cornsilk;
+    width: auto;
+    padding: 0.3em; 
+    font-size: 1.4em;
+    line-height: 1.5;
+    text-align: center;
+}
+
+#explanation4_1 {
+    font-family: 'Montserrat', sans-serif;
+    color: cornsilk;
+    width: auto;
+    padding: 0.3em; 
+    font-size: 1.4em;
+    line-height: 1.5;
+    text-align: center;
+}
+
+#button2 {
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    color: goldenrod;
+    border-radius: 20px;
+    border: 10px solid goldenrod;
+    width: auto;
+    margin-top: 0.9em;
+    margin-bottom: 1em;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+    padding: 0.5em; 
+    font-size: 3em;
+    line-height: 1.4;
+    letter-spacing: 1px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+

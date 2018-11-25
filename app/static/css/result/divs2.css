@@ -1,0 +1,37 @@
+#explanation2_div {
+    min-height: fit-content;
+    padding: 0.5em 1em;
+    display: block;
+}
+
+
+
+
+
+
+@media(min-width: 650px) {
+    #explanation2_div {
+        display: grid;
+        grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+    }
+
+    #explanation2 {
+        grid-column: 2/4;
+    }
+
+    #explanation2_1 {
+        grid-column: 2/4;
+    }
+
+    #explanation3_1 {
+        grid-column: 2/4;
+    }
+
+    #explanation4_1 {
+        grid-column: 2/4;
+    }
+
+    #button2 {
+        grid-column: 2/4;
+    }
+}

@@ -1,0 +1,91 @@
+#title_div {
+    min-height: 33.34%;
+    width: 100%;
+}
+
+#explanation_div {
+    min-height: fit-content;
+    padding: 0.5em 1em;
+    display: block;
+}
+
+#numbers_div {
+    min-height: fit-content;
+    display: block;
+}
+
+
+#img_div {
+   
+   width: 100%;
+   min-height: fit-content;
+   bottom: 0;
+   margin-top: 1em;
+   padding-top: 2em;
+   display: block;
+}
+
+
+@media(min-width: 650px) {
+    #explanation_div {
+        display: grid;
+        grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+    }
+
+    #explanation {
+        grid-column: 2/4;
+    }
+
+    #numbers_div {
+        display: grid;
+        grid-template-columns: 1fr repeat(6, minmax(auto, 10.5em)) 1fr;
+    }
+
+    #number_p {
+        grid-column: 2/8;
+    }
+
+    #number_p1 {
+        grid-column: 2/8;
+    }
+
+    #conjugate {
+        grid-column: 2/span 1;
+    }
+
+    #number_p2 {
+        grid-column: 3/span 5;
+    }
+
+    #number_p3 {
+        grid-column: 2/8;
+    }
+    
+    #number_p31 {
+        grid-column: 2/8;
+    }
+
+    #number_p4 {
+        grid-column: 2/span 5;
+    }
+
+    #aurum {
+        grid-column: 7/span 1;
+    }
+
+    #number_p5 {
+        grid-column: 2/8;
+    }
+
+    #infinity {
+        grid-column: 2/8;
+    }
+
+    #number_p6 {
+        grid-column: 2/8;
+    }
+
+    #button {
+        grid-column: 2/8;
+    }
+}

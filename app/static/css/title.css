@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous');
+
+#title1 {
+    position: absolute;
+    width: inherit;
+    top: 0;
+    left: 0;
+    text-align: center;
+    font-family: 'Righteous', sans-serif;
+    color:black;
+    padding: 0;
+    padding-top: 0.75em;
+    padding-bottom: 0.5em;
+    height: auto;
+    margin: auto;
+    text-shadow: 0 0 40px #ff005b;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 2px;
+}
+
+
+@media(min-width: 601px) {
+    .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    #title1 {
+        grid-column: span 1;
+        font-size: 4.5rem;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #title1 {
+        grid-column: span 1;
+        font-size: 3.2rem;
+    }
+}

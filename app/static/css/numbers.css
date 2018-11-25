@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css?family=Atomic+Age|Montserrat');
+
+
+
+#number_p {
+    font-family: 'Atomic Age', sans-serif;
+    color: cornsilk;
+    width: auto;
+    margin: 0;
+    padding: 0.5em 0.5em 0em 0.5em; 
+    font-size: 1.3em;
+    line-height: 1.5;
+    letter-spacing: 1.2px;
+    word-spacing: 16px;
+    text-align: center;
+    cursor: pointer;
+    /* This is to stop highlighting numbers and seeing any margin gaps. */
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+#number_p1 {
+    font-family: 'Atomic Age', sans-serif;
+    color: cornsilk;
+    width: auto;
+    margin: 0;
+    padding: 0em 0.5em 0em 0.5em; 
+    font-size: 1.3em;
+    line-height: 1.5;
+    letter-spacing: 1.2px;
+    word-spacing: 16px;
+    text-align: center;
+    cursor: pointer;
+    /* This is to stop highlighting numbers and seeing any margin gaps. */
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+#conjugate {
+    font-family: 'Atomic Age', sans-serif;
+    color: cornsilk;
+    width: auto;
+    margin: 0;
+    padding: 0em 0em 0em 0.5em; 
+    font-size: 1.3em;
+    line-height: 1.5;
+    letter-spacing: 1.2px;
+    word-spacing: 0px;
+    text-align: center;
+    cursor: pointer;
+     /* This is to stop highlighting numbers and seeing any margin gaps. */
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+#number_p2 {
+    font-family: 'Atomic Age', sans-serif;
+    color: cornsilk;
+    width: auto;
+    margin: 0;
+    padding: 0em 0em 0em 0.5em; 
+    font-size: 1.3em;
+    line-height: 1.5;
+    letter-spacing: 1.2px;
+    word-spacing: 16px;
+    text-align: left;
+    cursor: pointer;
+     /* This is to stop highlighting numbers and seeing any margin gaps. */
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+#number_p3 {
+    font-family: 'Atomic Age', sans-serif;
+    color: cornsilk;
+    width: auto;
+    margin: 0;
+    padding: 0em 0.5em 0em 0.5em; 
+    font-size: 1.3em;
+    line-height: 1.5;
+    letter-spacing: 1.2px;
+    word-spacing: 16px;
+    text-align: center;
+    cursor: pointer;
+     /* This is to stop highlighting numbers and seeing any margin gaps. */
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+#number_p31 {
+    font-family: 'Atomic Age', sans-serif;
+    color: cornsilk;
+    width: auto;
+    margin: 0;
+    padding: 0em 0.5em 0em 0.5em; 
+    font-size: 1.3em;
+    line-height: 1.5;
+    letter-spacing: 1.2px;
+    word-spacing: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#number_p4 {
+    font-family: 'Atomic Age', sans-serif;
+    color: cornsilk;
+    width: auto;
+    margin: 0;
+    padding: 0em 0em 0em 0.5em; 
+    font-size: 1.3em;
+    line-height: 1.5;
+    letter-spacing: 1.2px;
+    word-spacing: 16px;
+    text-align: center;
+    cursor: pointer;
+    /* This is to stop highlighting numbers and seeing any margin gaps. */
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+#aurum {
+    font-family: 'Atomic Age', sans-serif;
+    color: cornsilk;
+    width: auto;
+    margin: 0;
+    padding: 0em 0.5em 0em 0em; 
+    font-size: 1.3em;
+    line-height: 1.5;
+    letter-spacing: 1.2px;
+    word-spacing: 0px;
+    text-align: center;
+    cursor: pointer;
+    /* This is to stop highlighting numbers and seeing any margin gaps. */
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    
+}
+
+#number_p5 {
+    font-family: 'Atomic Age', sans-serif;
+    color: cornsilk;
+    width: auto;
+    margin: 0;
+    padding: 0em 0.5em 0em 0.5em; 
+    font-size: 1.3em;
+    line-height: 1.5;
+    letter-spacing: 1.2px;
+    word-spacing: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#infinity {
+    font-family: 'Montserrat', sans-serif;
+    color: gold;
+    width: auto;
+    margin: 0;
+    padding: 0em 0.5em 0em 0.5em; 
+    font-size: 2em;
+    line-height: 1.5;
+    letter-spacing: 1.2px;
+    word-spacing: 16px;
+    text-align: center;
+    cursor: pointer;
+    /* This is to stop highlighting numbers and seeing any margin gaps. */
+    -khtml-user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+#number_p6 {
+    font-family: 'Atomic Age', sans-serif;
+    color: cornsilk;
+    width: auto;
+    margin: 0;
+    padding: 0em 0.5em 0em 0.5em; 
+    font-size: 1.3em;
+    line-height: 1.5;
+    letter-spacing: 1.2px;
+    word-spacing: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+
+#button {
+    font-family: 'Montserrat', sans-serif;
+    background-color: gold;
+    color: black;
+    border-radius: 8px;
+    width: auto;
+    margin-top: 0.9em;
+    margin-bottom: 0em;
+    margin-left: 0.2em;
+    margin-right: 0.2em;
+    padding: 0.5em; 
+    font-size: 2em;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-align: center;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#button:hover {
+    background-color: black;
+    color: gold;
+}

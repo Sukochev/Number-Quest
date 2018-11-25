@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+
+#explanation {
+    font-family: 'Montserrat', sans-serif;
+    color: cornsilk;
+    width: auto;
+    padding: 0.5em; 
+    font-size: 1.6em;
+    line-height: 1.5;
+    text-align: center;
+}
