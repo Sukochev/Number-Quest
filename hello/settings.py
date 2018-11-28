@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '@ds+3lbqr2dpdbb5uo4tg0=x$z_c2p0^a(vs+--i+7wgaivqhu'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -118,7 +118,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
-STATIC_URL =  '/static/'   #'/static/'   Use this for hot loader --> http://127.0.0.1:8080/  'http://127.0.0.1:8000/'
+STATIC_URL =  '/static/'   #Use this for production ---> '/static/'   Use this for hot loader --> http://127.0.0.1:8080/  'http://127.0.0.1:8000/'
 STATICFILES_DIRS = ['dist', 'sounds']
 STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
 

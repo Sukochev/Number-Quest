@@ -89,6 +89,7 @@
     border-radius: 20px;
     border: 10px solid goldenrod;
     width: auto;
+    display: block;
     margin-top: 0.9em;
     margin-bottom: 1em;
     margin-left: 0.2em;

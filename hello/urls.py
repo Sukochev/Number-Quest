@@ -22,5 +22,7 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', app.views.home, name="home"),
     url(r'^result/', app.views.result, name="result"),
+    #url(r'^homedev/', app.views.homedev, name="homedev"),
+    #url(r'^resultdev/', app.views.resultdev, name="resultdev"),
 
 ]

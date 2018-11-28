@@ -12,6 +12,10 @@ import sketch2 from './sketch2.js';
 import '../../css/result/sketch2.css';
 
 
+
+
+//Index files are the only place where we need to import p5.
+//As here is the only time we initiate it.
 new p5(sketch2);
 
 

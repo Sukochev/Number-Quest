@@ -12,7 +12,8 @@ const Explanation = () => {
 
    const explanation = document.createElement("p");
    const explanation_text = document.createTextNode("Can you identify the correct hidden number to unearth it's secrets and progress further? \
-                                                    Cryptic clues abound, but so too distractions. Enjoy the hunt.");
+                                                    Cryptic clues abound to help you on your quest, but beware of distractions that lie in wait.\
+                                                     Enjoy the hunt!");
 
    explanation.appendChild(explanation_text);
    explanation.id = "explanation";

@@ -14,7 +14,10 @@
     word-spacing: 16px;
     text-align: center;
     cursor: pointer;
-    /* This is to stop highlighting numbers and seeing any margin gaps. */
+    /* This is to stop highlighting numbers and seeing any margin gaps. Both in blrowser and mobile. */
+    -webkit-touch-callout: none;
+    -ms-user-select: none;
+    -webkit-tap-highlight-color: transparent;
     -khtml-user-select: none;
     -o-user-select: none;
     -moz-user-select: none;
@@ -34,7 +37,10 @@
     word-spacing: 16px;
     text-align: center;
     cursor: pointer;
-    /* This is to stop highlighting numbers and seeing any margin gaps. */
+    /* This is to stop highlighting numbers and seeing any margin gaps. Both in blrowser and mobile. */
+    -webkit-touch-callout: none;
+    -ms-user-select: none;
+    -webkit-tap-highlight-color: transparent;
     -khtml-user-select: none;
     -o-user-select: none;
     -moz-user-select: none;
@@ -54,7 +60,10 @@
     word-spacing: 0px;
     text-align: center;
     cursor: pointer;
-     /* This is to stop highlighting numbers and seeing any margin gaps. */
+    /* This is to stop highlighting numbers and seeing any margin gaps. Both in blrowser and mobile. */
+    -webkit-touch-callout: none;
+    -ms-user-select: none;
+    -webkit-tap-highlight-color: transparent;
     -khtml-user-select: none;
     -o-user-select: none;
     -moz-user-select: none;
@@ -74,7 +83,10 @@
     word-spacing: 16px;
     text-align: left;
     cursor: pointer;
-     /* This is to stop highlighting numbers and seeing any margin gaps. */
+    /* This is to stop highlighting numbers and seeing any margin gaps. Both in blrowser and mobile. */
+    -webkit-touch-callout: none;
+    -ms-user-select: none;
+    -webkit-tap-highlight-color: transparent;
     -khtml-user-select: none;
     -o-user-select: none;
     -moz-user-select: none;
@@ -94,7 +106,10 @@
     word-spacing: 16px;
     text-align: center;
     cursor: pointer;
-     /* This is to stop highlighting numbers and seeing any margin gaps. */
+    /* This is to stop highlighting numbers and seeing any margin gaps. Both in blrowser and mobile. */
+    -webkit-touch-callout: none;
+    -ms-user-select: none;
+    -webkit-tap-highlight-color: transparent;
     -khtml-user-select: none;
     -o-user-select: none;
     -moz-user-select: none;
@@ -114,6 +129,8 @@
     word-spacing: 16px;
     text-align: center;
     cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 #number_p4 {
@@ -128,7 +145,10 @@
     word-spacing: 16px;
     text-align: center;
     cursor: pointer;
-    /* This is to stop highlighting numbers and seeing any margin gaps. */
+   /* This is to stop highlighting numbers and seeing any margin gaps. Both in blrowser and mobile. */
+   -webkit-touch-callout: none;
+   -ms-user-select: none;
+   -webkit-tap-highlight-color: transparent;
     -khtml-user-select: none;
     -o-user-select: none;
     -moz-user-select: none;
@@ -148,7 +168,10 @@
     word-spacing: 0px;
     text-align: center;
     cursor: pointer;
-    /* This is to stop highlighting numbers and seeing any margin gaps. */
+    /* This is to stop highlighting numbers and seeing any margin gaps. Both in blrowser and mobile. */
+    -webkit-touch-callout: none;
+    -ms-user-select: none;
+    -webkit-tap-highlight-color: transparent;
     -khtml-user-select: none;
     -o-user-select: none;
     -moz-user-select: none;
@@ -169,6 +192,8 @@
     word-spacing: 16px;
     text-align: center;
     cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 #infinity {
@@ -183,7 +208,10 @@
     word-spacing: 16px;
     text-align: center;
     cursor: pointer;
-    /* This is to stop highlighting numbers and seeing any margin gaps. */
+    /* This is to stop highlighting numbers and seeing any margin gaps. Both in blrowser and mobile. */
+    -webkit-touch-callout: none;
+    -ms-user-select: none;
+    -webkit-tap-highlight-color: transparent;
     -khtml-user-select: none;
     -o-user-select: none;
     -moz-user-select: none;
@@ -203,6 +231,8 @@
     word-spacing: 16px;
     text-align: center;
     cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 #button {

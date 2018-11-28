@@ -7,3 +7,10 @@ def home(request):
 
 def result(request):
     return render(request, 'result.html')
+
+def homedev(request):
+    return render(request, 'home.dev.html')
+
+
+def resultdev(request):
+    return render(request, 'result.dev.html')
