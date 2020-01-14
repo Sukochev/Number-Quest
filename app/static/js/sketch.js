@@ -20,17 +20,6 @@ const sketch = (p5) => {
 
   // make library globally available
   window.p5 = p5;
-  
-
- 
-
-
-  //Preload function
-  // ======================================
-  // p5.preload = () => {
-  //   var conjugate_audio1 = p5.loadSound(conjugate_audio);
-  //   var error_audio1 = p5.loadSound(error_audio);
-  // }
 
 
   // Setup function

@@ -48,14 +48,14 @@ const explanation2 = () => {
     
 
     const explanation3_1 = document.createElement("p");
-    const explanation3_1_text = document.createTextNode("The golden ratio is the number of choice for the sunflower,\
+    const explanation3_1_text = document.createTextNode("The golden ratio is the number of choice for the sunflower\
                                                          because it is the most irrational number.\
                                                          Any number that is rational (can be expressed as \u03B1/\u03B2 \
-                                                            where \u03B1 and \u03B2 are whole numbers), will eventually produce a seed pattern\
+                                                            where \u03B1 and \u03B2 are whole numbers) will eventually produce a seed pattern\
                                                              that makes gaps, because the pattern will effectively form 'spokes'\
                                                               and there will be space in between each 'spoke'.\
-                                                               Other irrational numbers e.g. \u03C0 will seemingly form spokes as well,\
-                                                              how many? Well, for \u03C0 about 22 of them can be seen quite early on.\
+                                                               Other irrational numbers e.g. \u03C0 will seemingly form spokes as well.\
+                                                              How many? Well, for \u03C0 about 22 of them can be seen quite early on.\
                                                                Why? Perhaps one reason is that \u03C0 can\
                                                               be fairly well approximated by a rational number... 22/7.\
                                                               Yet the golden ratio is a number that's as far as it can get from\
