@@ -22,7 +22,10 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^$', app.views.home, name="home"),
     url(r'^result/', app.views.result, name="result"),
-    url(r'^homedev/', app.views.homedev, name="homedev"),
-    url(r'^resultdev/', app.views.resultdev, name="resultdev"),
-
+    #url(r'^homedev/', app.views.homedev, name="homedev"),
+    #url(r'^resultdev/', app.views.resultdev, name="resultdev"),
 ]
+
+# NOTE: Use homedev and resultdev urls to test in development. I have commented them out in production.
+# When running dev server, create the main.js and main2.js files by removing --config webpack.production.config.js
+# from the package.json file. The production version auto-cleans the dist folder.
